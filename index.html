@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--Metadata-->
+    <meta charset="UTF-8" />
+    <meta name="author" content="Daniel Prieto" />
+    <meta
+      name="description"
+      content="Portafolio de desarrollo web de Daniel Prieto"
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript, React" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Title-->
+    <title>Daniel Prieto | Desarrollo Web Front-End</title>
+    <!--FavIcon-->
+    <link rel="icon" type="image/x-icon" href="/img/favicon/favicon.ico" />
+    <!--Bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="/styles.css" />
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--NavBar-->
+    <nav class="navbar navbar-expand-md navbar-light sticky-top shadow">
+      <div class="container-fluid">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbar-Toggler"
+          aria-controls="navbarTogglerDemo01"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-Toggler">
+          <a class="navbar-brand" href="#"
+            ><img
+              class="rounded-circle"
+              src="/img/favicon/Sin título (1).png"
+              width="50"
+              alt="icono"
+          /></a>
+          <ul
+            class="navbar-nav d-flex justify-content-center align-items-center"
+          >
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"
+                >Sobre mí</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyects">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!--Hero-->
+    <section class="hero align-items-stretch container">
+      <div
+        class="hero-principal d-flex flex-column justify-content-center align-items-center"
+      >
+        <img
+          src="/img/favicon/Sin título (1).png"
+          alt="Imagen de Daniel Prieto"
+          class="hero-img-principal rounded-circle"
+        />
+        <h1>Hola, soy Daniel Prieto</h1>
+        <h2>Estudiante de Desarrollo web y Programación de software</h2>
+      </div>
+
+      <div class="hero-inferior text-center">
+        <img
+          class="hero-inferior-imagen img-fluid"
+          src="/img/html5-css3-js.png"
+          alt="Monitor, Laptop y logos HTML, CSS, JavaScript"
+        />
+        <h5 class="mx-3 p-4">
+          "¡Bienvenido a mi portafolio como programador web! Soy un estudiante
+          universitario en la Universidad Rafael Belloso Chacín, donde estoy
+          estudiando para obtener mi título en ingeniería de software. A lo
+          largo de mi carrera, he desarrollado habilidades en el diseño y
+          desarrollo de sitios web atractivos y eficientes en términos de
+          funcionamiento. Este portafolio es una recopilación de mis proyectos
+          más destacados, donde podrás ver mis habilidades en acción y conocer
+          mi experiencia en diferentes tecnologías web. ¡Espero que disfrutes
+          explorarlos tanto como yo disfruté creándolos!"
+        </h5>
+      </div>
+
+      <div id="proyects" class="proyects">
+        <div class="row mt-3 d-flex flex-row justify-content-center">
+          <div class="col-sm-4">
+            <h3>Proyectos</h3>
+          </div>
+
+          <div class="pages row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img src="/img/cards/ConsolasDeNintendo.com.PNG" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">ConsolasDeNintendo.com</h5>
+                  <p class="card-text">
+                    Página informatica sobre todas las consolas de Nintendo. Aquí podrás encontrar información sobre el hardware de Nintendo, la historia de cada consola, los mejores juegos para cada consola, y mucho más.
+                  </p>
+                  <a href="https://github.com/danip14/WebsiteDanielPrieto" class="card-link">GitHub Proyect</a>
+                  <a href="https://consolasdenintendo.netlify.app/" class="card-link">Website Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/img/cards/LaVidaDeSkrillex.PNG" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">La Vida y Carrera de Skrillex</h5>
+                  <p class="card-text">
+                    Blog sobre la vida y obra del famoso artista, productor de música electronica o dance music, Skrillex.
+                  </p>
+                  <a href="https://github.com/danip14/LandingPageDanielPrieto" class="card-link">GitHub Proyect</a>
+                  <a href="https://lavidadeskrillex.tiiny.site/" class="card-link">Website Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/img/cards/comidadanielprieto.000webhostapp.PNG" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">5 Tipos de comida que no puedes dejar pasar para este 2023.</h5>
+                  <p class="card-text">
+                    Artículo sobre 5 tipos de comida que deberías probar en el 2023.
+                  </p>
+                  <a href="https://github.com/danip14/5TiposDeComida" class="card-link">GitHub Proyect</a>
+                  <a href="https://comidadanielprieto.000webhostapp.com/" class="card-link">Website Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/img/cards/modadanielprieto.000webhostapp.PNG" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Total Look</h5>
+                  <p class="card-text">
+                    Pagina sobre La marca de moda Total Look, con selección de escenciales, carta de presentación y video publicitario.
+                  </p>
+                  <a href="https://github.com/danip14/websiteModaFashionLook" class="card-link">GitHub Proyect</a>
+                  <a href="https://modadanielprieto.000webhostapp.com/#" class="card-link">Website Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/img/cards/retrodanielprieto.000webhostapp.PNG" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Tu Carro Retro</h5>
+                  <p class="card-text">
+                    Pagina de subasta de autos retros, Tu Carro Retro. Cuenta con Banner, un apartado de inventario, subscripción mensual, y reseñas destacadas, junto con un pequeño apartado para dejar comentarios y contacto.
+                  </p>
+                  <a href="https://github.com/danip14/TuCarroRetro" class="card-link">GitHub Proyect</a>
+                  <a href="https://retrodanielprieto.000webhostapp.com/" class="card-link">Website Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/img/cards/barkavenue.PNG" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Bark Avenue</h5>
+                  <p class="card-text">
+                    Tienda en linea de accesorios para mascotas y alimentos, Bark Avenue. cuenta con un Carrousel de imagenes con información relevante, apartadod de inicio de sesión y productos mas vendidos, y una sección de descuentos.
+                  </p>
+                  <a href="https://github.com/danip14/BarkAvenue" class="card-link">GitHub Proyect</a>
+                  <a href="https://barkavenue.tiiny.site/" class="card-link">Website Link</a>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="/img/cards/CortesConEstilo.PNG" class="card-img-top" alt="..." />
+                <div class="card-body">
+                  <h5 class="card-title">Cortes con Estilo</h5>
+                  <p class="card-text">
+                    Blog sobre 5 tipos de cortes de cabello para hombres, de la tienda Cortes con Estilo. Cuenta con una barra de navegación desplegable, e información detallada con imagenes sobre las secciones dedicadas del Blog, el pie de página es extenso y su información está bien detallada y distribuida. 
+                  </p>
+                  <a href="https://github.com/danip14/CortesConEstilo" class="card-link">GitHub Proyect</a>
+                  <a href="https://cortesconestilo.tiiny.site/" class="card-link">Website Link</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact" class="bg-light text-center text-white">
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Social media -->
+        <section class="mb-4 d-flex flex-row">
+          <!-- Facebook -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #3b5998;"
+            href="#!"
+            role="button"
+            ><i class="bi bi-facebook"></i
+          ></a>
+    
+          <!-- Twitter -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #55acee;"
+            href="#!"
+            role="button"
+            ><i class="bi bi-twitter"></i
+          ></a>
+    
+          <!-- Google -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #dd4b39;"
+            href="#!"
+            role="button"
+            ><i class="bi bi-google"></i
+          ></a>
+    
+          <!-- Instagram -->
+          <a
+            class="btn text-white btn-floating m-1"
+            style="background-color: #ac2bac;"
+            href="#!"
+            role="button"
+            ><i class="bi bi-instagram"></i
+          ></a>
+    
+          <!-- Linkedin -->
+          <a
+            class="btn text-white btn-floating m-1 disabled"
+            style="background-color: #0083ca7d;"
+            href="#!"
+            role="button"
+            ><i class="bi bi-linkedin"></i
+          ></a>
+        </section>
+        <!-- Section: Social media -->
+      </div>
+      <!-- Grid container -->
+    
+      <!-- Copyright -->
+      <div class="text-center p-3" style="background-color: rgba(36, 36, 36, 0.679);">
+        © 2023 Copyright: Daniel Prieto 
+        <a class="text-white" href="https://github.com/danip14"><i class="bi bi-github"></i
+          ></a>
+      </div>
+      <!-- Copyright -->
+    </footer>
+
+    <!--JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
